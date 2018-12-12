@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%=title%></title>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+
+    
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center" id="headTitle"><%= title%></h1>
+        <%if(success){%>
+            <p id="success"><%- success%></p>
+        <%}%>
+        <%if(error){%>
+            <p id="error"><%- error%></p>
+        <%}%>

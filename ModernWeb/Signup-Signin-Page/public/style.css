@@ -1,0 +1,85 @@
+
+form{
+    width:450px;
+    margin: 0 auto;
+    
+}
+
+form label{
+    color: #4fc08d;
+}
+
+#headTitle{
+    margin-bottom: 20px;
+    color: #4fc08d;
+    
+}
+
+#success{
+    width:450px;
+    border-radius: 3px;
+    background-color:#59e436;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+#error{
+    width:450px;
+    border-radius: 3px;
+    background-color: #f3654c;
+    color: white;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    opacity: 0.5;
+}
+
+#sub{
+    background-color: #4fc08d;
+    color: white;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#signup{
+    background-color: #e6e344;
+    color: white;
+    width: 100%;
+}
+
+#signout{
+    width:100%;
+    background-color:#eb4f5c;
+    color: white;
+}
+
+#signout:hover{
+    background-color: red;
+}
+
+#sub:hover{
+    background-color: #117c4a;
+}
+
+#signup:hover{
+    background-color: #e6c044;
+}
+
+#board{
+    width:450px;
+    margin: 0 auto;
+    
+}
+
+table{
+    border-radius: 5px;
+}
+
+.lab{
+    color: #4fc08d;
+    font-weight: bold;
+}

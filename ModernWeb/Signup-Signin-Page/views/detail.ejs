@@ -1,0 +1,24 @@
+<%- include('./components/header.ejs')%>
+    <div id="board">
+        <table class="table table-striped table-hover table-bordered">
+            <tr>
+                <td class="lab">用户名：</td>
+                <td><%= user.name%></td>
+            </tr>
+            <tr>
+                <td class="lab">学号：</td>
+                <td><%= user.id%></td>
+            </tr>
+            <tr>
+                <td class="lab">电话：</td>
+                <td><%= user.phone%></td>
+            </tr>
+            <tr>
+                <td class="lab">邮箱：</td>
+                <td><%= user.mail%></td>
+            </tr>
+        </table>
+
+        <a href="/signout" class="btn" id="signout">登出</a>
+    </div>
+<%- include('./components/footer.ejs')%>

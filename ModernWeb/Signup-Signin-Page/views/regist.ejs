@@ -1,0 +1,25 @@
+<%- include('./components/header.ejs')%>
+
+<form action="/regist" method="POST">
+    <div class="form-group"><label for="input_name">用户名</label>
+        <input required="required" name="name" type="text" class="form-control" id="input_name">
+    </div>
+    <div class="form-group"><label for="input_id">学号</label>
+        <input required="required" name="id" type="text" class="form-control" id="input_id">
+    </div>
+    <div class="form-group"><label for="input_phone">电话</label>
+        <input required="required" name="phone" type="text" class="form-control" id="input_phone">
+    </div>
+    <div class="form-group"><label for="input_mail">邮箱</label>
+        <input required="required" name="mail" type="text" class="form-control">
+    </div>
+    <div class="form-group"><label for="input_password">密码</label>
+        <input required="required" name="password" type="password" class="form-control" id="input_password">
+    </div>
+    <div class="form-group"><label for="input_repassword">确认密码</label>
+        <input required="required" name="repassword" type="password" class="form-control" id="input_repassword">
+    </div>
+    <button role="button" class="btn" type="submit" id="sub">提交</button>
+</form>
+
+<%- include('./components/footer.ejs')%>

@@ -1,0 +1,245 @@
+/*
+From 曲翔宇 QuXiangyu 15335124
+By Mac Brackets & VScode
+In 2017.09.30
+*/
+
+#wrap{
+	width:200px;
+	height: 250px;
+	position: fixed;
+	left: 42.5%;
+	top:48%;
+}
+
+#showorder{
+	position: fixed;
+	top: 40%;
+	width:100%;
+	text-align: center;
+}
+
+#at-plus-container{
+	font-family: Arial, sans-serif;
+    color: white;
+	font-weight: bold;	
+	font-size: 15pt;
+}
+
+ul{
+    list-style-type: none;
+    
+}
+
+/*info的初始状态
+
+*/
+.info>ul{
+	opacity: 0;
+	height: 0px;
+	width: 0px;
+	padding: 0px;
+    overflow: hidden;
+	border-radius: 50%;
+	background-color: rgba(145, 145, 145, 1);
+	position: fixed;
+	left: 50%;
+	top: 68%;
+	text-align: center;
+	transition: All 0.6s ease-in-out;
+	cursor: pointer;
+}
+
+
+
+/*info的动态效果*/
+#button:hover #info-bar ul{
+	height: 100px;
+	width: 100px;
+	padding: 20px;
+	opacity: 0.5;
+	transform: translateX(-55px) translateY(-170px);
+}
+
+
+/*微调info框内元素的位置*/
+.info ul img{
+    height: 25px;
+}
+
+.info ul .user>span{
+    position: relative;
+    left: 5px;
+    bottom: 18px;
+}
+
+.info ul .user>img{
+    position: relative;
+    right: 5px;
+    bottom: 15px;
+}
+
+.info ul .comment>span{
+	font-size: 30px;
+    position: relative;
+    left: 15px;
+	bottom: 5px;
+}
+
+.info ul .comment>img{
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+
+
+.info ul .mine{
+    color: rgba(0, 231, 157, 1);
+    display: inline;
+}
+
+.info ul .posted>img{
+    position: relative;
+    right: 10px;
+    top: 5px;
+    
+}
+
+.info ul .like>img{
+    position: relative;
+    top: 5px;
+    left: 5px;
+}
+
+.info ul .like>span{
+    position: relative;
+    left: 15px;
+}
+
+#answer{
+	font-size:75px;
+}
+
+/*主按钮点击前样式*/
+.apb .icon{
+	position: fixed;
+	top: 70% ;
+	left: 50% ;
+	background: url("assets/images/atplus_white.png") rgba(157 ,159 ,196, 1) no-repeat center;
+	background-size: 25px 20px;
+	height: 30px;
+	width: 30px;
+	padding: 0px;
+	border-radius: 50%;
+	transition: background-color 1.3s 0.7s, transform 1.3s 0.7s, background-image 0s 0.6s;
+	cursor: pointer;
+}
+
+/*主按钮点击效果*/
+#button:hover .icon{
+	background: url("assets/images/atplus_green.png") rgba(48, 63, 159, 1) no-repeat center;
+	background-size: 25px 20px;
+	transition: All 0.6s ease-in-out;
+	transform: scale(2);
+	
+}
+
+
+
+/*分菜单样式*/
+#control-ring .button{
+	height: 20px;
+	width: 20px;
+	padding: 5px;
+	border-radius: 50%;
+	background-color: rgba(127, 127, 127, 1);
+	/* background-color:blue; */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 15px 15px;
+	position: fixed;
+	left: 50%;
+	top: 70%;	
+	transition: All 0.6s ease-in-out, background-image 0s;
+	cursor: pointer;
+	
+}
+
+/*分菜单弹出效果*/
+#button:hover .mask{
+	transform: translateX(-60px) translateY(-35px);
+	background-image: url("assets/images/nomask.png");
+}
+
+#button:hover .history{
+	transform: translateX(-75px) translateY(0px);
+	background-image: url("assets/images/history.png");
+}
+
+#button:hover .message{
+	transform: translateX(-61px) translateY(37px);
+	background-image: url("assets/images/message.png");
+}
+
+#button:hover .setting{
+	transform: translateX(-20px) translateY(60px);
+	background-image: url("assets/images/setting.png");
+}
+
+#button:hover .sign{
+	transform: translateX(20px) translateY(55px);
+	background-image: url("assets/images/signin.png");
+}
+
+/*设置红色小点点的样式和动态效果*/
+#control-ring .unread{
+	width: 5px;
+	height: 5px;
+    line-height: 5px;
+	padding: 7px;
+	border-radius: 50%;
+	background-color: rgba(255, 1, 1, 1);
+	display: block;
+	position: relative;
+	left: 15px;
+	top: -10px;
+	color: white;
+	font-size: 7.5pt;
+	cursor: default;
+	opacity: 0;
+	transition: All 0s;
+}
+
+#button:hover .unread{
+	opacity: 1;
+	transition: All 0.6s ease-in-out;
+}
+
+/*因为我的排版是fixed布局，所以以下三个样式是要在动作生效时把父元素移动到鼠标所在的区域，
+这样的话就能够保证动画的流畅性*/
+#button:hover .button{
+	opacity: 1;
+	transition: All 0.6s ease-in-out;
+}
+
+
+#button:hover #control-ring-container{
+	position: absolute;
+	left: 50%;
+	top: 70%;
+}
+
+
+#button:hover #control-ring{
+	position: absolute;
+	left: -75px;
+	top: -75px;
+	border-radius: 50%;
+	width: 120px;
+	height: 150px;
+}
+
+
+
+
+

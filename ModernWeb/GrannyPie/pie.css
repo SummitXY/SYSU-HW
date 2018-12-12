@@ -1,0 +1,41 @@
+.headline{
+    background-color: #F0F0F0;
+    text-align: left;
+    text-decoration: underline;
+    color: #A4A400;
+    font-family: Century Gothic, Futura, Verdana,sans-serif;
+    font-size: 18pt;
+    letter-spacing: 0.2em;
+}
+
+#topline{
+    font-size: 22pt;
+    font-weight: bold;
+    text-align: center;
+}
+
+body{
+    color: #404040;
+    font-size: 11pt;
+    font-family: Georgia, Garamond,serif;
+    background:url(source/silverware.jpg);
+    background-attachment: fixed;
+}
+
+.img_sm{
+    border: 0;
+}
+
+ul{
+    list-style-image: url(source/pie_icon.gif);
+}
+
+a{
+    color: #A4A400;
+    
+}
+
+.quote{
+    font-style:italic;
+    background-color: #FFFFC8;
+}

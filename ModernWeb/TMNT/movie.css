@@ -1,0 +1,167 @@
+body{
+    background-image: url(public/img/background.png);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 8pt;
+    font-family: Verdana, Tahoma,sans-serif;
+}
+
+#banner{
+    background-image: url(public/img/bannerbackground.png);
+}
+
+#bannerimg{
+    width: 100%;
+    height: 50px;
+}
+
+
+
+#headname{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana, sans-serif;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#content{
+    width:800px;
+    margin: auto;
+    overflow: hidden;
+    border: 4px solid grey;
+}
+
+#left-content{
+    width: 550px;
+    float: left;
+    
+    
+}
+
+#left-content-top{
+    width: 100%;
+    background-image: url(public/img/rottenbackground.png);
+    height: 83px;
+}
+
+.left-content-top-img{
+    height: 83px; 
+    
+}
+
+#text-32{
+    display: inline;
+    font-size:48pt;
+    color: red;
+    font-weight: bold;
+    position: relative;
+    bottom: 15px;
+    
+}
+
+#text-88{
+    display: inline;
+    position: relative;
+    bottom: 15px;
+    font-size: 8pt;
+    color: white;
+}
+
+
+
+
+.left-content-main-cols{
+    
+    
+    float: left;
+    
+    
+}
+
+.left-content-main-cols-space{
+    width: 2%;
+}
+
+.left-content-main-cols-main{
+    width: 47%;
+}
+
+.left-content-main-cols-main-box{
+    padding: 8px;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E1D697;
+    border:2px solid gray;
+    margin-top: 10px
+    
+}
+
+.left-content-main-cols-main-id{
+    margin-top:10px;
+    margin-bottom: 3em;
+}
+
+
+
+#right-content{
+    float: right;
+    background-color: #A2B964;
+}
+
+.left-content-main-cols-main-id-img{
+    float: left;
+}
+
+.left-content-main-cols-main-id-name{
+    
+    
+}
+
+dl{
+    font-size: 8pt;
+    font-family: Arial ,sans-serif 
+}
+
+dt{
+    font-weight: bold;
+    line-height: 3em;
+}
+
+dd{
+    
+    text-indent: 2em;
+}
+
+#footer{
+    height: 20px;
+    background-color:  #A2B964;
+    width:800px;
+    text-align: center;
+    position: absolute;
+    bottom: -403px;
+    padding-top: 5px;
+}
+
+#smicon{
+    float: right;
+    position: relative;
+    bottom: 60px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

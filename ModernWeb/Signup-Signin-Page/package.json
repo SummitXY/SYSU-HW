@@ -1,0 +1,27 @@
+{
+  "name": "hw10",
+  "version": "1.0.0",
+  "description": "signup and signin",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SummitXY"
+  },
+  "author": "771744189@qq.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "config-lite": "^2.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^2.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-formidable": "^1.0.0",
+    "express-session": "^1.15.6",
+    "mongoose": "^4.13.6",
+    "sha1": "^1.1.1"
+  }
+}

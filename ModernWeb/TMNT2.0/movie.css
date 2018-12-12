@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#container{
+    overflow: hidden;
+    position: relative;
+}
+
+body{
+    background: url(img/background.png);
+}
+
+#header>img{
+    width:100%;
+}
+
+#title{
+    text-align: center;
+    font-size:24pt;
+    font-weight: bold;
+    font-family: Tahoma, Verdana,sans-serif;
+    height: 3em;
+    line-height: 3em;
+    
+}
+
+#container{
+    width:800px;
+    margin: auto;
+    
+    border: 4px grey solid;
+}
+
+#right_content{
+    width: 250px;
+    float: right;
+    background-color: #A2B964;
+}
+
+#left_content{
+    width:550px;
+}
+
+#content_head{
+    background: url(img/rottenbackground.png);
+    height: 83px;
+    
+}
+
+#content_head>#text_32{
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    vertical-align: top;
+    
+}
+
+#content_head>#text_88{
+    color: white;
+    font-size: 8pt;
+    position: relative;
+    bottom: 15px;
+}
+
+
+
+#left_content>#left{
+    width:47%;;
+    float: left;
+    margin-left: 2%;
+    margin-right: 1%;
+    
+}
+
+#left_content>#right{
+    width: 47%;;
+    float: left;
+    margin-left: 1%;
+    margin-right: 2%;
+}
+
+.content_box>p:first-child{
+    border: 2px solid grey;
+    font-size: 8pt;
+    font-weight: bold;
+    background-color: #E1D697;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.content_box>p:nth-child(2){
+    margin-bottom: 3em;
+    font-size:8pt;
+}
+
+.content_box>p:nth-child(2)>img{
+    float: left;
+}
+
+#left_content>.space{
+    float: left;
+    width: 10px;
+    
+}
+
+
+
+.content_box>p:first-child>img{
+    float: left;
+    clear: both;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+
+#container>#footer {
+    position: absolute;
+    bottom: 0px;
+    background-color: #A2B964;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+#left>.content_box:first-child{
+    margin-top: 10px;
+}
+
+#right>.content_box:nth-child(1){
+    margin-top: 10px;
+}
+
+#right_content>dl{
+    margin: 10px 10px 20px 10px;
+    font-size: 8pt;
+    font-family: Arial ,sans-serif;
+    
+}
+
+#right_content>dl>dt{
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+#right_content>dl>dd{
+    margin-left: 42px;
+}
+
+#w3cicon{
+    
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+#w3cicon img{
+    border: 0px;
+}
+
+
+
+
+
+
+
+

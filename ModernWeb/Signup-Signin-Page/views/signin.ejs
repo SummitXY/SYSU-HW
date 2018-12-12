@@ -1,0 +1,12 @@
+<%- include('./components/header.ejs')%>
+    <form action="/signin" method="POST">
+        <div class="form-group"><label for="signin_name">用户名</label>
+            <input type="text" class="form-control" name="name">
+        </div>
+        <div class="form-group"><label for="signin_password">密码</label>
+            <input type="password" class="form-control" name="password">
+        </div>
+        <button role="button" class="btn" type="submit" id="sub">登陆</button>
+        <a href="/regist" class="btn" role="button" id="signup">注册</a>
+    </form>
+<%- include('./components/footer')%>
