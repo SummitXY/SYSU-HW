@@ -1,0 +1,36 @@
+
+.row{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#time{
+    width:30px;
+}
+
+#result{
+    text-align: center
+}
+
+#score{
+    width:30px;
+}
+
+#main{
+    width:500px;
+    margin: 0 auto;
+}
+
+.lattice{
+    display: inline-block;
+    width: 100px;
+    height:100px;
+    background-color:burlywood;
+    border-radius: 50px;
+}
+
+.appearHamster{
+    background: url(img/dishu.png);
+    background-size: cover;
+}

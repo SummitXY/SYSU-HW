@@ -1,0 +1,206 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 100px 0 0 0;
+    font-family: "iconfont";
+    background-color:bisque;
+
+}
+
+
+
+#clock>#github-box{
+    float: right;
+    margin-top: 19px;
+    margin-left: 5px;
+    border: 0px;
+    
+}
+
+#clock #dropdownMenu{
+    border: 0px;
+}
+
+#clock>#github-box #github-img{
+    width:50px;
+    height: 48px;
+
+}
+
+
+
+#calc {
+/*    background-color: #ccc;*/
+    width: 300px;
+/*    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);*/
+    margin: 10px auto;
+    cursor: default;
+    
+}
+
+#head {
+    width: 300px;
+    margin: -5px auto;
+    border-radius: 10%;
+    height: 30px;
+    line-height: 30px;
+}
+
+
+
+#head>span{
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    color: white;
+    cursor: pointer;
+}
+
+#head>#close {
+    background-color: #FC5652;
+    
+}
+
+#head>#wrong{
+    background-color:darkorange;
+
+    float: right;
+}
+
+#head>#user{
+    background-color: green;
+    float: right;
+    margin-left: 5px;
+}
+
+
+#head>#history {
+    background-color: skyblue;
+    float: right;
+    margin-left: 5px;
+}
+
+#head>#eye{
+    margin-left: 5px;
+    float: right;
+    background-color: deeppink;
+}
+
+
+#screen {
+    text-align: right;
+    height: 30%;
+    width: 100%;
+    background-color: hsl(0, 0%, 50%);
+    color: white;
+    font-weight: 600;
+    border-radius: 5%;
+}
+
+#screen>#upscreen {
+    padding-top: 5px;
+    padding-right: 5px;
+    width: 100%;
+    font-size: 2.5rem;
+    overflow: hidden;
+}
+
+#screen>#downscreen {
+    padding-right: 5px;
+    width: 100%;
+    font-size: 4.5rem;
+    overflow: hidden;
+}
+
+#buttons {
+    width: 100%;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+#buttons>.btn-row {
+    width: 100%;
+}
+
+#buttons>.btn-row>span {
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 70px;
+    background-color: #F2F2F2;
+    margin: 2px 0;
+    height: 50px;
+    color: hsl(0, 17%, 20%);
+    background-color: #F2F2F2;
+    border-radius: 15%;
+}
+
+#buttons>.btn-row>span:active {
+    background-color: red;
+}
+
+#buttons>.btn-row>.btn-tool {
+    background-color: #F5923E;
+    color: #fff;
+    
+}
+
+#buttons>.btn-row>span#btn-zero {
+    
+}
+
+#history-box{
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgba(242,242,242,0.6);
+    list-style-type: none;
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 30%);
+    border-radius: 20px;
+    display: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#history-box>li{
+    margin-left: 10px;
+    
+}
+
+#history-box>#history-clear{
+    text-align: center;
+    background-color: #f2f2f2;
+    margin-left: 0px;
+    cursor: pointer;
+    padding-top: 4px
+}
+
+#history-box>#history-clear:hover{
+    background-color: rgba(255,0,0,0.5);
+}
+
+
+
+#readme{
+    margin: 5px auto;
+    background-color:darkturquoise;
+    width: 300px;
+    border-radius: 10px;
+    color:red;
+    text-align: center;
+}
+
+
+
+
+
+
+
+

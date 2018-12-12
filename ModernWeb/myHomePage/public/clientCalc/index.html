@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../bootstrap/bootstrap-3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="../bootstrap/bootstrap-3.3.7/jquery-3.2.1.min.js"></script>
+    <script src="../bootstrap/bootstrap-3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container"  >
+
+        <div class="row">
+            
+            <div id="head">
+                <span class="glyphicon glyphicon-off" id="close" data-toggle="tooltip" data-placement="top" title="电源"></span>
+                <span class="glyphicon glyphicon-folder-close" id="history" data-toggle="tooltip" data-placement="top" title="历史记录"></span>
+                <span class="glyphicon glyphicon-user" id="user" data-toggle="tooltip" data-placement="top" title="github"></span>
+                <span class="glyphicon glyphicon-eye-open" id="eye" data-toggle="tooltip" data-placement="top" title="关灯"></span>
+                
+                <span class="glyphicon glyphicon glyphicon-usd" id="wrong" data-toggle="tooltip" data-placement="top" title="测试异常"></span>
+                
+
+            </div>
+
+            <div id="calc">
+
+                <div id="screen">
+                    <div id="upscreen">0</div>
+                    <div id="downscreen">0</div>
+                </div>
+                <div id="buttons">
+                    <div class="btn-row">
+                        <span class="btn-screenContent" id="left-bracket">(</span>
+                        <span class="btn-screenContent" id="right-bracket">)</span>
+                        <span id="btn-delete">←</span>
+                        <span class="btn-tool btn-op btn-screenContent">/</span>
+                    </div>
+                    <div class="btn-row">
+                        <span class="btn-num btn-screenContent" id="num-7">7</span>
+                        <span class="btn-num btn-screenContent">8</span>
+                        <span class="btn-num btn-screenContent">9</span>
+                        <span class="btn-tool btn-op btn-screenContent">*</span>
+                    </div>
+                    <div class="btn-row">
+                        <span class="btn-num btn-screenContent">4</span>
+                        <span class="btn-num btn-screenContent">5</span>
+                        <span class="btn-num btn-screenContent">6</span>
+                        <span class="btn-tool btn-op btn-screenContent">-</span>
+                    </div>
+                    <div class="btn-row">
+                        <span class="btn-num btn-screenContent">1</span>
+                        <span class="btn-num btn-screenContent">2</span>
+                        <span class="btn-num btn-screenContent">3</span>
+                        <span class="btn-tool btn-op btn-screenContent">+</span>
+                    </div>
+                    <div class="btn-row">
+                        <span id="btn-reZero">CE</span>
+                        <span id="btn-zero" class="btn-num btn-screenContent">0</span>
+                        <span id="btn-dot" class="btn-screenContent">.</span>
+                        <span class="btn-tool" id="btn-eq">=</span>
+
+                    </div>
+                </div>
+            </div>
+            <ul id="history-box">
+                <li id="history-clear"><span class="glyphicon glyphicon-trash"></span></li>
+            </ul>
+        </div>
+        <p id="readme">
+            请TA食用前务必阅读README.pdf文档，多谢!
+        </p>
+
+    </div>
+
+</body>
+
+</html>
